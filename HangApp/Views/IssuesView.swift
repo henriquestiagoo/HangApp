@@ -32,8 +32,12 @@ struct IssueRowView: View {
 
     init(issue: Issue) {
         self.issue = issue
-        (1...10_000).map { print("Issue \($0)") }
-        Thread.sleep(forTimeInterval: 0.5)
+
+        DispatchQueue.global(qos: .background).async {
+            // Perform heavy computation on a background thread
+            (1...10_000).map { print("Issue \($0)") }
+            Thread.sleep(forTimeInterval: 0.5)
+        }
     }
 
     var body: some View {
