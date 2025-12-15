@@ -2,7 +2,7 @@
 
 Hi! 👋
 
-This is the sample app for the issue #62: [👮‍♂️ Identifying a Hang in iOS Applications 😰](https://www.ioscoffeebreak.com/issue/issue62) of the iOS Coffee Break Newsletter, that showcases a common performance challenge in iOS apps: UI hangs caused by intensive tasks running on the main thread.
+This is the sample app for the issue #63: [🩺 Analysing and Removing Hangs in iOS Apps 🧞‍♂️](https://www.ioscoffeebreak.com/issue/issue63) of the iOS Coffee Break Newsletter, that showcases a common performance challenge in iOS apps: UI hangs caused by intensive tasks running on the main thread, and how to eliminate it.
 
 <br />
 
